@@ -8,7 +8,7 @@ This is repository with inference code for paper **"Coordinate-based texture inp
 ## Data
 To use this repository you first need to download following files
 
-1. Download model checkpoints from [THIS LINK](https://drive.google.com/file/d/10k4_JTVTVADyR2YGcnc8Z-dF58jpFffn/view?usp=sharing). It consists of two files `inpainter.pth` and `refiner.pth`. 
+1. Download model checkpoint from [THIS LINK](https://drive.google.com/file/d/10k4_JTVTVADyR2YGcnc8Z-dF58jpFffn/view?usp=sharing). It consists of two files `inpainter.pth` and `refiner.pth`. 
 They need to be placed under `data/checkpoint/` directory.
 2. Download `smpltexmap.npy` file from [THIS LINK](https://drive.google.com/file/d/1F-aQx-5VQly1OvB5VvvHGkqpJUgzUYlU/view?usp=sharing) and put it under `data/` directory. 
 It is required to convert uv renders produced by [densepose](http://densepose.org/) algorithm (`*_IUV.png` files) to SMPL format used by our model.
