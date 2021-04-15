@@ -1,6 +1,9 @@
 # Coordinate-based texture inpainting
 
 This is repository with inference code for paper **"Coordinate-based texture inpainting for pose-guided human image generation"**.
+<p align="center">
+  <img src="./assets/idea.gif" alt="drawing", width="1280"/>
+</p>
 
 ## Data
 To use this repository you first need to download following files
