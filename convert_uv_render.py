@@ -16,12 +16,19 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     transformer = smpltex.TexTransformer(args.mapping_file)
+<<<<<<< HEAD
+
+=======
     
+>>>>>>> 84dd03a2fb88cea3e0e9794746bb5fd3c6ee7830
     iuv_path = os.path.join(args.iuv_dir, args.sample_id+'_IUV.png')
     out_path = os.path.join(args.out_dir, args.sample_id+'.npy')
 
     iuv_png = cv2.imread(iuv_path)[..., ::-1]
     uv_smpl = iuv2smpluv(iuv_png, transformer)
 
+<<<<<<< HEAD
+=======
     print('Saved the converted UV to: ', out_path)
+>>>>>>> 84dd03a2fb88cea3e0e9794746bb5fd3c6ee7830
     np.save(out_path, uv_smpl)

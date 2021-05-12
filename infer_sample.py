@@ -29,6 +29,10 @@ if __name__ == '__main__':
     pair_str = args.source_sample + '_to_' + args.target_sample
     out_path = os.path.join(args.out_dir, pair_str + '.png')
     os.makedirs(args.out_dir, exist_ok=True)
+<<<<<<< HEAD
+
+=======
     
     print('Writing the .png result to:', out_path)
+>>>>>>> 84dd03a2fb88cea3e0e9794746bb5fd3c6ee7830
     cv2.imwrite(out_path, pred_img[..., ::-1])
